@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Optima';
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h3{
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #4D6374;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+hr{
+  height: 4px;
+  border-width: 0;
+  background-color: #C49A4E;
+  width: 42.5%;
+  margin: 6px 24px 0px 0px;
+}
+
+main{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/*Navigation*/
+
+nav {
+  display: flex;
+  padding: 0.5% 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DEE9EE;
+}
+
+nav img{
+  height: 60px;
+}
+
+.navLinks {
+  flex: 1;
+  text-align: right;
+}
+
+.navLinks ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.navLinks ul li a{
+  color: #4D6374;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+/*header*/
+
+.headerImg{
+  min-height: 50vh;
+  width: 100%;
+  background-image: url("images/Screenshot\ 2022-03-11\ 171501.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/*Sobre mi*/
+
+#sobreMi{
+  margin-top: 46px;  
+}
+
+#sobreMiContent{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+
+#sobreMiText{
+  width: 50%;
+  text-align: justify;
+  margin: 1% 7.5%;
+}
+
+#sobreMiImg{
+  background-image: url("images/cartel_consulta_VERO.jpg");
+  height: 250px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 1% 7.5%;
+}
+
+/*Filosofia de Trabajo*/
+
+#filosofiaTrabajo{
+  width: 100%;
+  padding: 5% 12.5%;
+  background-color: #DEE9EE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#filosofiaTrabajoArea{
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2% 7.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#filosofiaTrabajoArea hr {
+  width: 80%;
+  margin: 12px 0;
+}
+
+#filosofiaTrabajoTitle{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#filosofiaTrabajoArea p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+/*Servicios*/
+
+#servicios{
+  margin-top: 46px;
+  width: 100%;
+}
+
+#serviciosContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.servicioCardA {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicioCardB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicioCardA .servicioImg {
+  background-image: url("images/vero_foto_feed_tostada_aguacate.jpg");
+  background-size: cover;
+  height: 180px;
+  width: 50%;
+  background-position: center;
+  margin: 1% 7.5% 1% 7.5%;
+}
+
+.servicioCardB .servicioImg {
+  background-image: url("images/vero_foto_feed_soja.jpg");
+  background-size: cover;
+  height: 180px;
+  width: 50%;
+  background-position: center;
+  margin: 1% 15% 1% 0;
+}
+
+.servicioDescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicioDescription img {
+  width: 30px;
+  height: 55px;
+}
+
+.servicioText {
+  margin-left: 16px;
+}
+
+.servicioText h3 {
+  margin-bottom: 16px;
+}
+
+.servicioCardA .servicioDescription {
+  width: 50%;
+  margin: 1% 7.5%;
+}
+
+.servicioCardB .servicioDescription {
+  width: 50%;
+  margin: 1% 7.5%;
+}
+
+/*Contacto*/
+
+#contacto {
+  width: 100%;
+  padding: 5% 12.5%;
+  background-image: url("images/Veronica_camara_nutricionista_branding_proposal-24.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 46px;
+}
+
+.contactoArea {
+  width: auto;
+  background-color: rgba(219, 232, 238, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+
+.contactoContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contactoText{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: 0% 7.5%;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.contactoOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px 0px;
+  color: #4D6374;
+}
+
+.contactoOption p {
+  font-weight: 400;
+}
+
+.fa {
+  margin-right: 14px;
+  font-size:48px
+}
+
+.contactoForm{
+  margin: 0% 7.5%;
+  width: 50%;
+
+}
+
+input[type=text], select, textarea {
+  font-family: 'Inter', sans-serif;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #C49A4E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #976d20;
+}
+
+/*Mobile*/
+
+@media(max-width: 700px) {
+
+  h2{
+    font-size: 18px;
+  }
+  
+  h3{
+    font-size: 14px;
+  }
+  
+  p{
+    font-size: 12px;
+  }
+  
+  hr{
+    height: 2px;
+    width: 50%;
+  }
+
+  /*navigation*/
+
+  nav {
+    display: flex;
+    padding: 2% 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEE9EE;
+  }
+
+  nav img{
+    height: 35px;
+  }
+  
+  .navLinks {
+    display: none;
+  }
+
+  /*header*/
+
+.headerImg{
+  min-height: 25vh;
+}
+
+  /*Sobre mi*/
+
+  #sobreMi {
+    margin-top: 24px;
+  }
+
+  #sobreMiContent{
+    flex-direction: column;
+  }
+
+  #sobreMiText{
+    width: fit-content;
+    margin: 4% 0 0 0;
+  }
+
+  #sobreMiImg{
+    display: none;
+  }
+
+  /*Filosifa de trabajo*/
+
+  #filosofiaTrabajo {
+    margin-top: 24px;
+    padding: 10% 12.5%;
+  }
+
+  /*Servicios*/
+
+  #servicios {
+    margin-top: 24px;
+  }
+
+  .servicioCardA {
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 32px;
+  }
+
+  .servicioCardB {
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 32px;
+  }
+
+  .servicioCardA .servicioImg {
+    display: none;
+  }
+
+  .servicioCardB .servicioImg {
+    display: none;
+  }
+
+  .servicioCardA .servicioDescription {
+    width: fit-content;
+    margin: 0;
+  }
+  
+  .servicioCardB .servicioDescription {
+    width: fit-content;
+    margin: 0;
+  }
+
+  .servicioText h3 {
+    margin-bottom: 6px;
+  }
+
+  /*Contacto*/
+
+  #contacto {
+    margin-top: 24px;
+  }
+
+  .contactoContent {
+    flex-direction: column;
+    margin: 4% 0 0 0;
+  }
+
+  #contactoText {
+    width: fit-content;
+    margin: 0;
+  }
+
+  .contactoForm {
+    width: fit-content;
+    margin: 0;
+  }
+
+  label {
+    display: none;
+  }
+
+
+}
