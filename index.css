@@ -176,6 +176,7 @@ nav img{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 2%;
 }
 
 .servicioCardB {
@@ -183,6 +184,7 @@ nav img{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 2%;
 }
 
 .servicioCardA .servicioImg {
@@ -250,6 +252,7 @@ nav img{
   background-color: rgba(219, 232, 238, 0.8);
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
 
 .contactoContent {
@@ -318,12 +321,147 @@ input[type=submit]:hover {
   background-color: #976d20;
 }
 
+
+
+
+
+
+
+/*Tablet*/
+
+@media only screen and (max-width: 1024px) {
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+  
+  p{
+    font-size: 16px;
+  }
+
+  hr{
+    height: 4px;
+    width: 50%;
+  }
+
+  /*navigation*/
+
+  nav {
+    padding: 2% 10%;
+  }
+
+  nav img{
+    height: 40px;
+  }
+
+  .navLinks ul li{
+    padding: 8px 4px;
+  }
+
+   /*header*/
+
+.headerImg{
+  min-height: 30vh;
+}
+
+  /*Sobre mi*/
+
+  #sobreMi {
+    margin-top: 36px;
+  }
+
+  #sobreMiContent{
+    flex-direction: column;
+  }
+
+  #sobreMiText{
+    width: fit-content;
+    margin: 4% 0 0 0;
+  }
+
+  #sobreMiImg{
+    display: none;
+  }
+
+  /*Filosofia de trabajo*/
+
+  #filosofiaTrabajo {
+    margin-top: 36px;
+    padding: 10% 12.5%;
+  }
+
+    /*Servicios*/
+
+    #servicios {
+      margin-top: 32px;
+    }
+
+    .servicioCardA .servicioImg {
+      background-image: url("images/vero_foto_feed_tostada_aguacate.jpg");
+      background-size: cover;
+      height: 180px;
+      width: 50%;
+      background-position: center;
+      margin: 1% 0% 1% 7.5%;
+    }
+    
+    .servicioCardB .servicioImg {
+      background-image: url("images/vero_foto_feed_soja.jpg");
+      background-size: cover;
+      height: 180px;
+      width: 50%;
+      background-position: center;
+      margin: 1% 7.5% 1% 0;
+    }
+
+    .servicioCardA .servicioDescription {
+      width: 50%;
+      margin: 1% 0% 1% 7.5%;
+    }
+    
+    .servicioCardB .servicioDescription {
+      width: 50%;
+      margin: 1% 0% 1% 7.5%;
+    }
+
+    /*Contacto*/
+
+  #contacto {
+    margin-top: 32px;
+  }
+
+  .contactoContent {
+    flex-direction: column;
+    margin: 4% 0 0 0;
+  }
+
+  #contactoText {
+    width: fit-content;
+    margin: 0;
+  }
+
+  .contactoForm {
+    width: fit-content;
+    margin: 2% 0;
+  }
+
+}
+
+
+
+
+
+
 /*Mobile*/
 
-@media(max-width: 700px) {
+@media only screen and (max-width: 724px) {
 
   h2{
-    font-size: 18px;
+    font-size: 24px;
   }
   
   h3{
@@ -331,7 +469,7 @@ input[type=submit]:hover {
   }
   
   p{
-    font-size: 12px;
+    font-size: 14px;
   }
   
   hr{
@@ -346,7 +484,6 @@ input[type=submit]:hover {
     padding: 2% 10%;
     justify-content: center;
     align-items: center;
-    background-color: #DEE9EE;
   }
 
   nav img{
@@ -393,6 +530,11 @@ input[type=submit]:hover {
 
   #servicios {
     margin-top: 24px;
+  }
+
+  .servicioDescription img {
+    width: 20px;
+    height: 40px;
   }
 
   .servicioCardA {
