@@ -105,7 +105,7 @@ nav img{
 
 #sobreMiText{
   width: 50%;
-  text-align: justify;
+  text-align:left;
   margin: 1% 7.5%;
 }
 
@@ -265,7 +265,7 @@ nav img{
   width: 50%;
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  text-align: left;
   margin: 0% 7.5%;
   align-items: flex-start;
   justify-content: space-around;
@@ -581,10 +581,15 @@ input[type=submit]:hover {
     flex-direction: column;
     margin: 4% 0 0 0;
   }
+  
+  .contactoOptions{
+    padding-top: 16px;
+  }
 
   #contactoText {
     width: fit-content;
     margin: 0;
+    padding-bottom: 16px;
   }
 
   .contactoForm {
