@@ -84,7 +84,7 @@ nav img{
 .headerImg{
   min-height: 50vh;
   width: 100%;
-  background-image: url("images/Screenshot\ 2022-03-11\ 171501.jpg");
+  background-image: url("images/vero-header.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -110,7 +110,7 @@ nav img{
 }
 
 #sobreMiImg{
-  background-image: url("images/cartel_consulta_VERO.jpg");
+  background-image: url("images/vero-sobre-mi-2.jpg");
   height: 250px;
   width: 50%;
   background-size: cover;
@@ -187,8 +187,8 @@ nav img{
   margin-top: 2%;
 }
 
-.servicioCardA .servicioImg {
-  background-image: url("images/vero_foto_feed_tostada_aguacate.jpg");
+.servicioImg1 {
+  background-image: url("images/vero-servicios-educacion-nutricional-2.jpg");
   background-size: cover;
   height: 180px;
   width: 50%;
@@ -196,13 +196,39 @@ nav img{
   margin: 1% 7.5% 1% 7.5%;
 }
 
-.servicioCardB .servicioImg {
-  background-image: url("images/vero_foto_feed_soja.jpg");
+.servicioImg2 {
+  background-image: url("images/vero-servicios-cambios-composicion.jpg");
   background-size: cover;
   height: 180px;
   width: 50%;
   background-position: center;
   margin: 1% 15% 1% 0;
+}
+
+.servicioImg3 {
+  background-image: url("images/vero-servicios-nutricion-deportiva.jpg");
+  background-size: cover;
+  height: 180px;
+  width: 50%;
+  background-position: center;
+  margin: 1% 7.5% 1% 7.5%;
+}
+
+.servicioImg4 {
+  background-image: url("images/vero-servicios-nutricion-infantil-2.jpg");
+  background-size: cover;
+  height: 180px;
+  width: 50%;
+  background-position: center;
+  margin: 1% 15% 1% 0;
+}
+.servicioImg5 {
+  background-image: url("images/vero-servicios-nutricion-plantas.jpg");
+  background-size: cover;
+  height: 180px;
+  width: 50%;
+  background-position: center;
+  margin: 1% 7.5% 1% 7.5%;
 }
 
 .servicioDescription {
