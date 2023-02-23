@@ -24,6 +24,7 @@
                     <li><a href="#sobreMi">Sobre mi</a></li>
                     <li><a href="#filosofiaTrabajo">Filosofía de trabajo</a></li>
                     <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#tarifas">Tarifas</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
@@ -46,9 +47,11 @@
                     Me diplomé en 2012 y desde entonces no he parado de formarme. Me encanta leer y aprender, sobre todo
                     acerca de la nutrición basada en plantas (dieta vegetariana/vegana), la nutrición infantil y la
                     nutrición deportiva, sobre esta rama realicé un Experto en Nutrición Deportiva en 2013. Además, mi
-                    <b>pasión por aprender</b> me llevó a graduarme en Fisioterapia en 2018 pero eso ya es otro capítulo.
+                    <b>pasión por aprender</b> me llevó a graduarme en Fisioterapia en 2018 pero eso ya es otro
+                    capítulo.
                     <br><br>
-                    Considero que un buen profesional de la salud tiene que estar <b>continuamente actualizado</b> por lo que
+                    Considero que un buen profesional de la salud tiene que estar <b>continuamente actualizado</b> por
+                    lo que
                     sigo estudiando sobre diferentes patologías (obesidad, digestiva, hormonal,..).
                 </p>
 
@@ -66,14 +69,17 @@
                     <hr>
                 </div>
                 <p id="filosofiaTrabajoText">
-                    Mi filosofía es simple: <b>enseñarte que llevar una dieta saludable es sencillo</b> y nada aburrido, sin
+                    Mi filosofía es simple: <b>enseñarte que llevar una dieta saludable es sencillo</b> y nada aburrido,
+                    sin
                     necesidad de suplementos o de prohibiciones.
                     <br><br>
-                    Mi finalidad es <b>ayudarte a cumplir tus objetivos</b> . La consulta dietética es totalmente personalizada.
+                    Mi finalidad es <b>ayudarte a cumplir tus objetivos</b> . La consulta dietética es totalmente
+                    personalizada.
                     Es necesario conocer tus circunstancias para guiarte y ofrecerte un asesoramiento adaptado.
                     <br><br>
                     Mi meta es que en cada consulta aprendas y disfrutes del camino sean cual sean tus objetivos.
-                    Además, mi propósito es <b>darte las herramientas necesarias</b> para que seas independiente y puedas
+                    Además, mi propósito es <b>darte las herramientas necesarias</b> para que seas independiente y
+                    puedas
                     mantenerlo a lo largo del tiempo.
 
                 </p>
@@ -179,6 +185,80 @@
             </div>
         </section>
 
+        <section id="tarifas">
+            <h2>Tarifas</h2>
+            <hr>
+            <div class="tarifasContent">
+
+                <!-- Primera Visita -->
+
+                <div class="tarifaDescription">
+                    <div class="tarifaTitle">
+                        <h3>
+                            PRIMERA VISITA
+                        </h3>
+                        <hr class="smallLine">
+                    </div>
+
+                    <h4 id="primeraVisita">
+                        Historia clinica<br>
+                        Historia dietetica<br>
+                        Establecer objetivos<br>
+                        Valoracion antropometrica<br>
+                        Plan personalizado
+                    </h4>
+                        <div>
+                            <h3 class="tarifaPrice">
+                                35€
+                        </div>
+                </div>
+
+                <!-- Segunda Visita -->
+
+                <div class="tarifaDescription">
+                    <div class="tarifaTitle">
+                        <h3>
+                            SEGUNDA VISITA
+                        </h3>
+                        <hr class="smallLine">
+                    </div>
+
+                    <h4 id="segundaVisita">
+                        Pauta personalizada<br>
+                        Consejos practicos<br>
+                        Educacion nutricional
+                    </h4>
+                    <div class="tarifaPrice">
+                        <h3 id="tarifaGratis">
+                            GRATIS
+                    </div>
+
+                    </h3>
+                </div>
+
+                <!-- Revision -->
+
+                <div class="tarifaDescription">
+                    <div class="tarifaTitle">
+                        <h3>
+                            REVISIONES
+                        </h3>
+                        <hr class="smallLine">
+                    </div>
+
+                    <h4 id="revision">
+                        Valoracion del proceso<br>
+                        Actualizacion de pauta<br>
+                        Resolucion de dudas
+                    </h4>
+                    <div>
+                        <h3 class="tarifaPrice">
+                            25€
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contacto -->
 
         <section id="contacto">
@@ -223,16 +303,25 @@
                         </div>
                     </div>
                     <div class="contactoForm">
-                        <form action="action_page.php">
+                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
 
-                            <label for="fname">Nombre y Apellidos</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Nombre...">
-
-                            <label for="lname">Email</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Email...">
-
-                            <label for="phone">Telefono</label>
-                            <input type="text" id="phone" name="telefono" placeholder="Teléfono...">
+                            <label for="Name" class="fcf-label">Nombre y Apellidos</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" class="fcf-form-control" required name="Name" placeholder="Nombre...">
+                            </div>
+                            
+                            
+                                <label for="Email" class="fcf-label">Email</label>
+                                <div class="fcf-form-group">
+                            <input type="email" id="Email" class="fcf-form-control" required name="email" placeholder="Email...">
+                            </div>
+                            
+                            
+                            <label for="Phone">Telefono</label>
+                            <div class="fcf-form-group">
+                            <input type="number" id="phone" 
+                            class="fcf-form-control" name="telefono" placeholder="Telefono...">
+                            </div>
                             <!--
                           <label for="servicio">Servicio</label>
                           <select id="servicio" name="servicio">
@@ -243,12 +332,19 @@
                             <option value="servicio5">Servicio 5</option>
                           </select>
                         -->
-                            <label for="subject">Mensaje</label>
-                            <textarea id="subject" name="subject" placeholder="Escribe aquí..."
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Mensaje</label>
+                            <div class="fcf-input-group">
+                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required placeholder="Escribe aquí..."
                                 style="height:200px"></textarea>
-
-                            <input type="submit" value="Enviar">
-
+                            </div>
+                            
+                            </div>
+                            <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">
+                                Enviar
+                            </button>
+                            </div>
                         </form>
                     </div>
                 </div>
