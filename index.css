@@ -316,8 +316,10 @@ nav img{
 #contacto {
   width: 100%;
   padding: 5% 12.5%;
-  background-image: url("images/Veronica_camara_nutricionista_branding_proposal-24.jpg");
-  background-size: cover;
+  background-color: #DEE9EE;
+  background-image: url("images/vero_repetition_blue_2x.png");
+  background-size:cover;
+  background-repeat: no-repeat;
   background-position: center;
   position: relative;
   margin-top: 46px;
